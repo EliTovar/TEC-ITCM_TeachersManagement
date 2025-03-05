@@ -1,0 +1,28 @@
+.encabezado{
+    background-color: #1b396a;
+    width: auto;
+    color:aliceblue;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: #807e82;
+    width: 1000px;
+    margin: auto;/*margen centrado*/
+    border-radius: 40px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;/*hacia arriba*/
+    padding-bottom: 1em;/*hacia abajo*/
+    border: 3px solid darkgrey;
+    color: aliceblue;
+}
+
+
+.titulo{
+    text-align: center;
+}
+
+.centrado{
+    text-align: center;
+}

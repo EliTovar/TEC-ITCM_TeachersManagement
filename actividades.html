@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo3.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/script4.js" defer></script>
+    <title>Actividades</title>
+</head>
+<body>
+    <div class="encabezado"><h1>Actividades</h1></div>
+    <div class="contenedor">
+        <div class="titulo">
+            <ul id="lista-actividades">
+                <!-- Aquí se cargarán dinámicamente las actividades -->
+            </ul>
+
+            <h2>Agregar Actividad</h2>
+            <input type="text" id="titulo" placeholder="Título de la actividad">
+            <input type="text" id="descripcion" placeholder="Descripción de la actividad">
+            <input type="number" id="valor" placeholder="Valor de la actividad">
+            <select id="id_evaluacion">
+                <!-- Aquí se cargarán dinámicamente las opciones de evaluación -->
+            </select>
+            <button onclick="agregarActividad()">Agregar</button>
+
+            <input type="hidden" id="id_actividad">
+
+            <h2>Modificar Actividad</h2>
+            <!-- se muestran los campos de modificación -->
+
+            <button onclick="modificarActividad()">Modificar</button>
+            <button onclick="eliminarActividad()">Eliminar</button>
+        </div>
+    </div>
+</body>
+</html>

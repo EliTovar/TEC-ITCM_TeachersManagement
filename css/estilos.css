@@ -1,0 +1,61 @@
+body{
+    font-family: Montserrat;
+}
+ 
+.btnHome{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+}
+.btnHome:hover{
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.headerCalif{
+    
+    background-color: #1B396A;
+    width:100%;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+}
+table{
+    border-radius: 1%;
+}
+
+.listaCalif{
+    text-align: start;
+    background-color: rgb(225, 225, 225);
+    width: 90%;
+    height: auto;
+    margin: 23px;
+}
+
+
+
+
+.labelTh{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1B396A;
+}
+
+th{
+    padding: 12px;    
+}
+tr:hover{
+    font-size: 18px;
+    transition: 0.8s;
+}
+
+.grupoCalif{
+    text-align: end;
+    align-content: last baseline;
+    margin: 25px;
+    font-size: 20px;
+}
